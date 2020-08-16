@@ -1,0 +1,107 @@
+/*global*/
+body {
+  background-color:#F2F2F2;
+  font-family:tahoma;
+}
+
+h3 {
+  font-weight:bold;
+  text-align:center;
+  padding:25px;
+}
+
+
+/*navigation*/
+
+#navigation {
+  position:sticky;
+  top:0;
+  z-index:999;
+}
+
+.navbar {
+  background-color:steelblue;
+  width:100%;
+  font-weight:bold;
+}
+
+/*eye-catcher*/
+#eye_catcher {
+  height:750px;
+  background: url("../img/bgMap.png");
+  /*background-repeat:no-repeat;*/
+  background-position: -1250px -500px;
+  border:2px solid black;
+}
+
+#eye_catcher_title {
+  padding:10px 25px;
+  font-weight:bold;
+  color:white;
+}
+
+#eye_catcher_subtitle {
+  padding:0px 25px;
+  color:white;
+}
+
+
+/*interactive maps*/
+
+.card-body > h5 {
+  font-weight:bold;
+}
+
+#interactive_maps {
+  background-color:lightblue;
+  padding:10px;
+}
+
+#paper_maps {
+  padding:10px;
+}
+
+
+/*print maps*/
+
+
+/*about me*/
+
+#about_me {
+  background-color:lightblue;
+  padding:10px;
+}
+
+#about_me_pic {
+  float:left;
+  border: 1px solid black;
+  border-radius: 25%;
+  margin: 0px 25px 25px 25px;
+}
+
+
+/*resume*/
+
+#resume_pdf {
+  text-align:center;
+  font-weight:bold;
+}
+
+
+/*footer*/
+
+#footer {
+  padding:10px;
+  margin:10px 0px 0px 0px;
+  background-color:steelblue;
+  text-align:center;
+}
+
+#footer > p {
+  color:white;
+  font-weight:bold;
+}
+
+.btn.btn-rounded {
+  border-radius:50px;
+}
